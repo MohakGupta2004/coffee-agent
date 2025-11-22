@@ -5,5 +5,12 @@
         "milk": "No",
         "extras": [],
         "name": "Mohawk Gupta"
+    },
+    {
+        "drinkType": "tea",
+        "size": "medium",
+        "milk": "Yes",
+        "extras": [],
+        "name": "Kaushik"
     }
 ]

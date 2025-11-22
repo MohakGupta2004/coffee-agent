@@ -56,7 +56,6 @@ Talk like a real person. Help smart. Joke smart. Vibe smart.""",
          extras: if they want something extra,
          name: their name
         """
-        # Construct absolute path to data/orders.json
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         file_path = os.path.join(base_dir, "data", "orders.json")
         
@@ -69,7 +68,6 @@ Talk like a real person. Help smart. Joke smart. Vibe smart.""",
                         data = json.loads(content)
             except Exception as e:
                 logger.error(f"Error reading orders file: {e}")
-                # Start with empty list if file is corrupted or unreadable
 
         new_data = {
             "drinkType": drinkType,
